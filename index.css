@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.header{
+    background-color: aqua;
+    height: 50px;
+}
+.logo{
+    float: left;
+    width: 20%;
+    line-height: 50px;
+}
+.nav{
+    float: right;
+    width: 60%;
+    line-height: 50px;
+}
+.nav>ul>li{
+    display: inline;
+}
+.nav>ul{
+    margin-left: 580px;
+}
+.nav>ul>li>a{
+    padding: 20px;
+    text-decoration: none;
+}
+button{
+    border-radius: 5px;
+    border: 0;
+    background: #1a93f1;
+    color: #fff;
+    padding: 10px;
+}
+.signupForm{
+    margin: 0 auto;
+    /* width: 60%; */
+    border: 3px solid #73AD21;
+    padding: 10px;
+    width: 343px; 
+    height: 464px;
+   
+
+}
+/* .social{
+    float: right;
+    width: 20%;
+    line-height: 50px;
+}
+.social>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    float: right;
+    margin-right: -780px;
+    margin-top: 5px;
+} */
