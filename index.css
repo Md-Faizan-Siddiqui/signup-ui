@@ -45,20 +45,19 @@ button{
     border: 3px solid #73AD21;
     padding: 10px;
     width: 343px; 
-    height: 464px;
-   
-
+    height: 464px; 
 }
-/* .social{
-    float: right;
-    width: 20%;
-    line-height: 50px;
-}
-.social>img{
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    float: right;
-    margin-right: -780px;
-    margin-top: 5px;
-} */
+.testbox {
+    margin: 20px auto;
+    width: 343px; 
+    height: 464px; 
+    -webkit-border-radius: 8px/7px; 
+    -moz-border-radius: 8px/7px; 
+    border-radius: 8px/7px; 
+    background-color: #ebebeb; 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    border: solid 1px #cbc9c9;
+    text-align: center;
+  }

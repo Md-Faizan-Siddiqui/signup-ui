@@ -5,33 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <header class="header">
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>Login Page</h1>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="./Signup.html">Signup</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+        </nav>
+    </header>
+
     <div class="testbox">
         <h1>Login</h1>
-        
+        <br>
+
         <form action="/">
 
-            <label for=""></label>
-            
-           
-            <!-- <div class="gender">
-                <input type="radio" value="None" id="male" name="gender" checked/>
-                <label for="male" class="radio" chec>Male</label>
-                <input type="radio" value="None" id="female" name="gender" />
-                <label for="female" class="radio">Female</label>
-            </div>  -->
-            
+            <div id="signupForm">
+
+                <label for="userEmail">
+                    Email :
+                    <input type="email" name="userEmail" placeholder="Enter Your Email">
+                </label>
+                <br>
+                <br>
+                <label for="userPassword">
+                    Password :
+                    <input type="password" name="userPassword" placeholder="Enter Your Password">
+                </label>
+                <br>
+                <br>
+
+                <button type="submit">Login</button>
+
+            </div>
+            <br>
+            <br>
+            <button> <a href="./index.html">Back To Home</a></button>
+
+
         </form>
-        <button> <a href="./index.html">Back To Home</a></button>
     </div>
-
-
-
-
-
 
 </body>
 </html>
